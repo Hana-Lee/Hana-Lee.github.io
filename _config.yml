@@ -83,8 +83,21 @@ avatar: https://avatars.githubusercontent.com/u/8112862?v=4
 toc: true
 
 disqus:
-  comments: true  # boolean type, the global switch for posts comments.
+  comments: false  # boolean type, the global switch for posts comments.
   shortname: 'hana-blog'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+
+# To use Utterance comments,  you can going to https://utteranc.es/ get more parameters interpretation.
+utterance:
+  comments: true
+  # Note: Make sure the repo is public, otherwise your readers will not be able to view the issues/comments.
+  # Make sure the [utterances app](https://github.com/apps/utterances) is installed on the repo, otherwise users will not be able to post comments.
+  #  If your repo is a fork, navigate to it's settings tab and confirm the issues feature is turned on.
+  repo: Hana-Lee/Hana-Lee.github.io # Choose the repository utterances will connect to. eg: owner/repo
+  issue-term: og:title   # Choose the mapping between blog posts and GitHub issues. 
+  theme: github-dark # Choose an Utterances theme that matches your blog. 'github-light' is default
+
+  ## Optional
+  label:  comments # Choose the label that will be assigned to issues created by Utterances.
 
 paginate: 10
 
